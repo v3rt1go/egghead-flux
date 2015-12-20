@@ -8,5 +8,6 @@ export default {
   ADD_ITEM: 'app-item:add',
   REMOVE_ITEM: 'app-item:remove',
   INCREASE_ITEM: 'app-item:inc',
-  DECREASE_ITEM: 'app-item:dec'
+  DECREASE_ITEM: 'app-item:dec',
+  CHANGE_EVENT: 'change'
 };

@@ -1,17 +1,15 @@
 'use strict';
 import React from 'react';
-import AppActions from './../actions/app-actions.js';
-
-
-// TODO: DISABLE TERN_FOR_VIM - MAKES VIM TO SLOW
+import Catalog from './app-catalog';
+import Cart from './app-cart';
 
 class App extends React.Component {
   render() {
     return (
-      <h1 onClick={AppActions.addItem.bind(null, 'this is the item ...')}>
-        A super cool Flux App
-      </h1>
-
+      <div className="container">
+        <Catalog />
+        <Cart />
+      </div>
     );
   }
 }
